@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alert Assignment2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4e4113349d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+      
+    <div class="container-fluid">
+        <!-- Success Alert with Checkmark Icon -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fas fa-check-circle fa-lg"></i> <strong>Success!</strong> Your message has been sent successfully.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Error Alert with Exclamation Triangle Icon -->
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="fas fa-exclamation-triangle fa-lg"></i> <strong> Error! </strong> A problem has occurred while submitting your data.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Warning Alert with Exclamation Triangle Icon -->
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <i class="fas fa-exclamation-triangle fa-lg"></i> <strong> Warning!</strong> There was a problem with your network connection.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Info Alert with Info Circle Icon -->
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <i class="fas fa-info-circle fa-lg"></i> <strong> Info! </strong> Please read the comments carefully.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+
+
+    <!-- <button>: This is like the magic button. When you click it, something will happen.
+
+      type="button": It's like telling the button, "Hey, you're a special button, not for submitting forms or anything else, just for clicking."
+      
+      class="btn-close": This is a special code that makes the button look like a tiny circle with an "X" inside. It's like giving the button a nice outfit.
+      
+      data-bs-dismiss="alert": This part is like telling the button, "When you're clicked, you need to make something go away." In our case, it makes the special message (alert) disappear.
+      
+      aria-label="Close": This is like a note for special helpers (like screen readers) to understand what the button does. It says, "This button closes something."
+      
+      So, in simple terms, this code is like saying, "Here's a magic button that looks like a tiny circle with an 'X.' When you click it, a special message will disappear." It's a way to make things happen when you press the button!
+    
+      alert-dismissible: This class is used to make the alert dismissible, meaning it can be closed or removed. It adds a close button to the alert, usually in the top right corner. The close button allows users to manually dismiss or close the alert.
+
+      fade: This class adds a fade-in and fade-out effect when the alert appears or disappears. It gives a smooth transition effect, making the alert gradually appear or disappear instead of instantly showing or hiding. The fade effect is controlled by Bootstrap's JavaScript.
+
+      show: This class is used to initially display the alert. Without it, the alert would be hidden when the page loads. Adding the show class ensures that the alert is visible to users when the page first loads.
+
+      Putting it all together, when you use these classes in an alert:
+      It means you have a success alert that can be dismissed (closed) with a fade-in and fade-out effect, and it's initially visible when the page loads. The close button (btn-close) inside the alert is styled by Bootstrap to look like an "X," and clicking it will trigger the dismissal of the alert.
+
+    -->
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
